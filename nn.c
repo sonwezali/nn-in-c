@@ -22,14 +22,12 @@ float* createNewWeights(int nin) {
 }
 
 /*
- * typedef struct {
- *     float* weights; // array of weights
- *     int nin;
- *     float bias;
- *     float data;
- *     float grad;
- *     void (*printData)(float val);
- * } Neuron;
+ g typedef struct {
+ s     float* weights; // array of weights
+ g     int nin;
+ s     float bias;
+ g     void (*printData)(float val);
+ s } Neuron;
  */
 
 // Neuron defaultNeuron = {

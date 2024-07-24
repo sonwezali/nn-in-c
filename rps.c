@@ -1,5 +1,5 @@
 /*********************************
- | machine learning in c playing |
+ |  neural network in c playing  |
  |      rock paper scissor       |
  *********************************/
 
@@ -64,6 +64,7 @@ int main() {
         0.0,
         NULL
     };
+
     Value testVal1 = {
         2.0,
         0.0,
